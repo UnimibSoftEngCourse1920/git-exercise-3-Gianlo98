@@ -970,6 +970,7 @@ public class Assert {
             Matcher<? super T> matcher) {
         MatcherAssert.assertThat(reason, actual, matcher);
     }
+<<<<<<< HEAD
 
     /**
      * Asserts that {@code runnable} throws an exception of type {@code expectedThrowable} when
@@ -1037,5 +1038,9 @@ public class Assert {
 
     private static String buildPrefix(String message) {
         return message != null && message.length() != 0 ? message + ": " : "";
+=======
+    
+    
+>>>>>>> refs/heads/greater
     }
 }
