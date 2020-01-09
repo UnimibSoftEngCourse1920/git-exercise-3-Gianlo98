@@ -632,6 +632,13 @@ public class Assert {
     public static void assertEquals(long expected, long actual) {
         assertEquals(null, expected, actual);
     }
+    
+    public static void assertIntGreaterThen(int a, int b) {
+        if(a <= b) {
+            fail();
+        }
+           
+    }
 
     /**
      * Asserts that two longs are equal. If they are not, an
